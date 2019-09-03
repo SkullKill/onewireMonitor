@@ -1,5 +1,5 @@
 # onewireMonitor
-onewireMonitor. For Raspberry Pi. This will **Monitor onewire temp directory and hard reset power to the DS18B20 if folder is not present.**
+onewireMonitor. For Raspberry Pi. This will **Monitor onewire temp directory and hard reset power to the DS18B20 if folder is not present.** It has a script to monitor that the main program is running, and restarts it if for whatever reason it crashes.
 
 this is a workaround for when DS18B20 temp sensors keeps disappearing and log showing
 
