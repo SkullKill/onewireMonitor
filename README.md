@@ -32,7 +32,7 @@ data pin to rpi gpio (BCM) #4 [physical pin 7]
 
 ground to rip ground [physical pin 9] using this because it is next to #4
 
-power pin to rpi gpio #17 [physical pin 11]
+power pin to rpi gpio #17 [physical pin 11] using this because it is next to the ground pin
 
 
 
