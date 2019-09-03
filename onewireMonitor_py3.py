@@ -35,9 +35,9 @@ try:
     # uncomment the next line, to log when the next cycle is starthing
     print("{} - Starting new cycle".format(datetime.datetime.now()))
 
-    # change this according to the folder / DS18B20 serial to monitor
-    #if (os.path.isdir("/sys/bus/w1/devices/28-XXXXXXXXXXXX") == False):
-    if (os.path.isdir("/sys/bus/w1/devices/28-030797798892") == False):
+    ##############################################################################################
+    # change this according to the folder / DS18B20 serial to monitor ****************************
+    if (os.path.isdir("/sys/bus/w1/devices/28-XXXXXXXXXXXX") == False):
       print("{} - Reseting OneWire".format(datetime.datetime.now()))
       GPIO.output(17, GPIO.LOW)
       time.sleep(3)
